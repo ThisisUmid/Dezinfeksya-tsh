@@ -14,7 +14,7 @@ export const Contact = () => {
   const SendMessage = (event) => {
     setLoading(true);
     event.preventDefault();
-    const token = "7486996857:AAHo0mc-QJHTiBAYE0VYAoW9lFWEp9GwcWA";
+    const token = "";
     const chatId = 922395119;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("name").value;
